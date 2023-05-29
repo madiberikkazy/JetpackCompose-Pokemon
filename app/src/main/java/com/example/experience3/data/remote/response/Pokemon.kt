@@ -1,7 +1,7 @@
 package com.example.experience3.data.remote.response
 
 data class Pokemon(
-    val abilities: List<com.example.experience3.data.remote.response.Ability>,
+    val abilities: List<Ability>,
     val base_experience: Int,
     val forms: List<com.example.experience3.data.remote.response.Form>,
     val game_indices: List<com.example.experience3.data.remote.response.GameIndice>,
